@@ -1,0 +1,7 @@
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\MSA3backend.exe
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\MSA3backend.dll
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\MSA3backend.deps.json
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\MSA3backend.runtimeconfig.json
+C:\Users\wlsrb\Desktop\MSA3\backend\MSA3backend\MSA3backend\obj\Release\netcoreapp3.1\PubTmp\Out\MSA3backend.pdb
