@@ -33,6 +33,15 @@ namespace MSA3backend
 
             services.AddTransient<IStorageRepository, StorageRepository>();
 
+            services.AddCors(options => 
+            {
+                options.AddDefaultPolicy(
+                    builder => 
+                    {
+                        builder.WithOrigins("https://msa3backendjin-wa.azurewebsites.net", "http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+                    });
+            });
+
             services.AddSwagger();
             services.AddSwaggerDocument(options => 
             {
@@ -49,6 +58,13 @@ namespace MSA3backend
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder => 
+            {
+                builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            });
             app.UseOpenApi();
             app.UseSwagger();
             app.UseSwaggerUi3();
