@@ -25,12 +25,13 @@ namespace MSA3backend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddSwagger();
             services.AddSwaggerDocument(options => 
             {
                 options.DocumentName = "Jingyu's API";
                 options.Version = "V1";
             });
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +42,7 @@ namespace MSA3backend
                 app.UseDeveloperExceptionPage();
             }
             app.UseOpenApi();
+            app.UseSwagger();
             app.UseSwaggerUi3();
 
             app.UseHttpsRedirection();
